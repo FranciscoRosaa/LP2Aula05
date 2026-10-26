@@ -25,6 +25,10 @@ namespace ExceptionTest
             {
                 Console.WriteLine("Unknown Error!");
             }
+            finally
+            {
+                Console.WriteLine("Thank You for using this program!");
+            }
         }
     }
 }
